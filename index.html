@@ -6,10 +6,28 @@
     <!-- <link href='http://fonts.useso.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
+    <!--页面加载start-->
+    <link rel="stylesheet" type="text/css" href="css/loader.min.css">
     <title>个人简介</title>
 </head>
 
 <body>
+	
+<script type="text/javascript">         
+    // 等待所有加载
+    $(window).load(function(){
+        $('body').addClass('loaded');
+        $('#loader-wrapper .load_title').remove();
+    }); 
+</script>  
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    <div class="load_title">正在加载LoveFeel站点<br><span>V1.0</span></div>
+</div>
+<!--页面加载end-->
+	
 	<!-- 导航栏 -->
     <div class="fixed-header">
         <div class="container">
